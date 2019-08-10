@@ -11,6 +11,7 @@ class Backer
     if name != nil
     Project.add_backer(name)
   end
+  end
 
 
 

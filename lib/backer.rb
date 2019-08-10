@@ -10,7 +10,7 @@ class Backer
      @backed_projects << title
   end
 
-  def back_project(title, name)
+  def back_project(title, name = nil)
     if @backed_projects.include?(title)
       Project.add_backer(name)
     end

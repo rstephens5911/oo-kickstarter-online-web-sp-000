@@ -7,8 +7,7 @@ class Backer
   end
 
   def back_project(title, name)
-     @backed_projects << title
-     @backers << name
+     @backed_projects << title.name
   end
 
 

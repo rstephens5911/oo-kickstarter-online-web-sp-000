@@ -10,6 +10,7 @@ class Backer
      @backed_projects << title
      if @backed_projects.include?(title)
      Project.add_backer << self
+   end
   end
 
 
